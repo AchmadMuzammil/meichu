@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./output.css">
+    <link rel="shortcut icon" href="assets/meichu-logo.png" type="image/x-icon">
+    <title>MeichuShoop</title>
+</head>
+
+<body class="dark:bg-gray-900 bg-bgPink">
+    <!-- Navbar -->
+
+    <nav data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-offset="100"
+        class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-50">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="assets/meichu-logo.png" class="h-14" alt="Flowbite Logo" />
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-mainPink rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="#" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-mainPink rounded font-rubikfont hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-hoverPink md:p-0 dark:text-mainPink md:dark:hover:text-hoverPink dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-mainPink rounded font-rubikfont hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-hoverPink md:p-0 dark:text-mainPink md:dark:hover:text-hoverPink dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Produck</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-mainPink rounded font-rubikfont hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-hoverPink md:p-0 dark:text-mainPink md:dark:hover:text-hoverPink dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Discover</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-mainPink rounded font-rubikfont hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-hoverPink md:p-0 dark:text-mainPink md:dark:hover:text-hoverPink dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Request
+                            Product</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-mainPink rounded font-rubikfont hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-hoverPink md:p-0 dark:text-mainPink md:dark:hover:text-hoverPink dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- carousel -->
+
+    <section id="#" class="pt-20">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" id="default-carousel" class="relative w-full"
+            data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div id="dataCarrousel" class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <!-- komponen carrousel -->
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                <button type="button" class="bg-bgPink w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="bg-bgPink w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="bg-bgPink w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="bg-bgPink w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="bg-bgPink w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+        <img src="./assets/DiscoverOverlay.png" class="absolute" alt="">
+    </section>
+
+    <!-- end carousel -->
+
+    <!-- Discover -->
+
+    <section>
+        <div class="flex justify-center pt-20 font-normal text-5xl font-shiningFont text-mainPink pb-0 mb-0">
+            <h1>Discover May 2024</h1>
+        </div>
+        <div class="justify-center items-center">
+            <div class="stunning">
+                <div data-aos="zoom-out-up" class="container">
+                    <input type="radio" name="slide" id="c1" checked>
+                    <label for="c1" class="card">
+                        <div class="row">
+                            <div class="icon">1</div>
+                            <div class="description">
+                                <h4>Winter</h4>
+                                <p>Winter has so much to offer -
+                                    creative activities</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c2">
+                    <label for="c2" class="card">
+                        <div class="row">
+                            <div class="icon">2</div>
+                            <div class="description">
+                                <h4>Digital Technology</h4>
+                                <p>Gets better every day -
+                                    stay tuned</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c3">
+                    <label for="c3" class="card">
+                        <div class="row">
+                            <div class="icon">3</div>
+                            <div class="description">
+                                <h4>Globalization</h4>
+                                <p>Help people all over the world</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c4">
+                    <label for="c4" class="card">
+                        <div class="row">
+                            <div class="icon">4</div>
+                            <div class="description">
+                                <h4>New technologies</h4>
+                                <p>Space engineering becomes
+                                    more and more advanced</p>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Discover -->
+
+    <!-- card produck -->
+    <img src="./assets/overlayPink.png" class="absolute mt-40" alt="">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#FD768E" fill-opacity="1"
+            d="M0,224L80,208C160,192,320,160,480,160C640,160,800,192,960,197.3C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+    <section id="#" class="bg-mainPink">
+        <div class="flex justify-center items-center pt-4 gap-4">
+            <img data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500"
+                class="w-40 leaf-animation" src="./assets/sakuraPink 1.png" alt="">
+            <h1 data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500"
+                class="text-5xl font-shiningFont font-normal text-white">Our Produck</h1>
+            <img data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500"
+                class="w-40 leaf-animation" src="./assets/sakuraPink 2.png" alt="">
+        </div>
+
+        <!-- atas -->
+        <div id="dataProducts" class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 p-14 sm:m-20 m-5 gap-2 sm:gap-4">
+            <!-- komponen card -->
+        </div>
+        <!-- button all produck -->
+
+        <div class="flex justify-center pb-10">
+            <a href="./AllProduct.html"
+                class="flex justify-between items-center gap-14 rounded-2xl text-mainPink bg-bgPink">
+                <img class="w-[50px]" src="./assets/sakuraPink 1.png" alt="">
+                <span class="font-rubikfont font-bold">Show All Prodcut</span>
+                <img class="w-[50px]" src="./assets/sakuraPink 2.png" alt="">
+            </a>
+        </div>
+
+        <!-- end button all produck -->
+    </section>
+
+    <!-- end card produck -->
+
+
+
+
+    <!-- Footer -->
+
+    <footer class="bg-white dark:bg-gray-800">
+        <img src="./assets/footer-image.png" class="absolute" alt="">
+        <div class="text-center flex justify-center items-center pt-4">
+            <a href="#"
+                class="flex justify-center items-center text-2xl font-shiningFont font-normal text-gray-900 dark:text-white"
+                style="color: #FCB837;">
+                <img class="w-20" src="./assets/meichu-logo.png" alt="">
+                Made with ❤️ By Meichu Shop
+            </a>
+        </div>
+    </footer>
+
+    <!-- end Footer -->
+
+
+    <!-- script -->
+    <script src="./index.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</body>
+
+</html>
